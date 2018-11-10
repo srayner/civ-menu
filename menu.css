@@ -26,13 +26,16 @@
   position: absolute;
   right: 0;
   top: 0;
+  width: 22px;
   line-height: 24px;
 }
 
 .menu-close::before {
   content: "\00d7";
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 300;
 }
+
 .menu-close:hover {
   color: black;
   cursor: pointer;
@@ -52,6 +55,6 @@
 
 .menu-body li:hover {
   color: white;
-  background-color: #39c;
+  background-color: #39e;
   cursor: pointer;
 }
