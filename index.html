@@ -1,21 +1,38 @@
 <html>
-    <head>
-        <title>Menu Component</title>
-    </head>
-    <body>
-        <div class="menu">
-            <div class="menu-header">
-                <span class="menu-title">Menu Title</span>
-                <span class="menu-close">X</span>
-            </div>
-            <div class="menu-body">
-                <ul>
-                    <li>Menu Item 1</li>
-                    <li>Menu Item 2</li>
-                    <li>Menu Item 3</li>
-                    <li>Menu Item 4</li>
-                </ul>
-            </div>
-        </div>
-    </body>
+  <head>
+    <style>
+      body {
+        background-color: #eee;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="menu.css" />
+    <title>Menu Component</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="menu-header">
+        <span class="menu-title">List Actions</span>
+        <span class="menu-close"></span>
+      </div>
+      <div class="menu-body">
+        <ul>
+          <li>Add task...</li>
+          <li>Copy list...</li>
+          <li>Move list...</li>
+          <li>Watch</li>
+        </ul>
+        <ul>
+          <li>Move all tasks in this list...</li>
+          <li>Archive all tasks in this list...</li>
+        </ul>
+        <ul>
+          <li>Archive this list...</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>

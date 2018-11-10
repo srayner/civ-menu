@@ -1,0 +1,57 @@
+.menu {
+  margin: 0;
+  padding: 10px 10px 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border: 1px solid #789;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-font-smoothing: auto;
+}
+
+.menu-header {
+  padding: 5px 5px 10px 5px;
+  position: relative;
+  text-align: center;
+  color: #789;
+}
+
+.menu-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 24px;
+}
+
+.menu-close::before {
+  content: "\00d7";
+  font-size: 24px;
+}
+.menu-close:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.menu-body ul {
+  margin: 0;
+  padding: 5px 0;
+  list-style: none;
+  border-top: 1px solid #789;
+  font-weight: 500;
+}
+
+.menu-body li {
+  padding: 5px;
+}
+
+.menu-body li:hover {
+  color: white;
+  background-color: #39c;
+  cursor: pointer;
+}
